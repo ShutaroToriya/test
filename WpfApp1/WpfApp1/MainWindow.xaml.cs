@@ -24,5 +24,12 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void combine_button_Click(object sender, RoutedEventArgs e)
+        {
+            result_letter.Text = letter1.Text + " " + letter2.Text;
+            letter1.Text = "";
+            letter2.Text = "";
+        }
     }
 }
