@@ -27,18 +27,8 @@ namespace WpfApp1
 
         }
 
-        private void combine_button_Click(object sender, RoutedEventArgs e)
-        {
-            result_letter.Text = letter1.Text + " " + letter2.Text;
-            letter1.Text = "";
-            letter2.Text = "";
-        }
+        
 
-        private void plus_button_Click(object sender, RoutedEventArgs e)
-        {
-            result_number.Text = (double.Parse(number1.Text) + double.Parse(number2.Text)).ToString();
-            number1.Text = "";
-            number2.Text = "";
-        }
+        
     }
 }
