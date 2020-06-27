@@ -23,6 +23,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
 
         private void combine_button_Click(object sender, RoutedEventArgs e)
